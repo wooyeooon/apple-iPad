@@ -32,7 +32,7 @@ const searchShadowEl = searchWrapEl.querySelector('.shadow')
 const searchInputEl = searchWrapEl.querySelector('input')
 const searchDelayEls = [...searchWrapEl.querySelectorAll('li')]
 
-searchStarterEl.addEventListener('click', showSearch)
+searchStarterEl.addEventListener ('click', showSearch)
 searchCloserEl.addEventListener('click', hideSearch)
 searchShadowEl.addEventListener('click', hideSearch)
 
