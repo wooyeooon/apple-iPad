@@ -104,7 +104,7 @@ ipads.forEach(function (ipad) {
 
   let colorList = ''
   ipad.colors.forEach(function (color) {
-    colorList += `<li style="background-color: ${color}"></li>`
+    colorList += /*html*/`<li style="background-color: ${color}"></li>`
   })
 
   itemEl.innerHTML = /*html*/ `
