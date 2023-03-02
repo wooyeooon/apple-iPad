@@ -65,6 +65,16 @@ function hideSearch() {
   searchInputEl.value = ''
 }
 
+// 헤더 메뉴 토글!
+const menuStarterEl = document.querySelector('header .menu-starter')
+menuStarterEl.addEventListener('click', function () {
+  if (headerEl.classList.contains('menuing')) {
+    headerEl.classList.remove('menuing')
+  } else {
+    headerEl.classList.add('menuing')
+  }
+})
+
 
 // 요소의 가시성 관찰
 const io = new IntersectionObserver(function (entries) {
