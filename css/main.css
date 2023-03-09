@@ -1349,7 +1349,7 @@ main {
     transform: translate(276px, -88px) rotate(-3deg);
   }
   .camera .stage figcaption {
-    transform: scale(.8) translate(-136px, 306px);
+    transform: scale(.8) translate(-136px, -276px);
   }
   .camera .edit .figures {
     height: auto;
@@ -1384,7 +1384,7 @@ main {
     margin-top: 64px;
   }
   .camera .stage figure {
-    transform: translate(20px, 0);
+    transform: translate(130px, 50px);
   }
   .camera .stage figure img {
     width: 450px;
@@ -1402,7 +1402,7 @@ main {
     width: 175px;
     height: 43px;
     background-image: url("../images/camera_hardware_caption_mobile.png");
-    transform: scale(1) translate(110px, -40px);
+    transform: scale(1) translate(110px, -390px);
   }
   .camera .edit .figures {
     margin-top: 30px;
