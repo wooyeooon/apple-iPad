@@ -2,6 +2,8 @@
 
 # iPad
 
+본 프로젝트는 <a href="https://github.com/ParkYoungWoong">박영웅</a>님의 강의를 보며 클린코딩으로 제작된 것임을 알립니다.
+
 [DEMO](https://transcendent-naiad-733465.netlify.app/)
 
 ![Screenshots](./images/screenshot1.jpg)
